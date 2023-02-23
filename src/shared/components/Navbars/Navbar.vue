@@ -1,6 +1,7 @@
 <template>
   <div class="flex content-container justify-between items-center">
     <svg
+        @click="emits('toggleSidebar')"
         class="w-12"
         aria-hidden="true"
         fill="none"
@@ -22,4 +23,6 @@
 </template>
 
 <script setup>
+
+const emits = defineEmits(['toggleSidebar'])
 </script>
