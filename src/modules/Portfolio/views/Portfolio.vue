@@ -1,13 +1,7 @@
 <template>
-<p class="text-blue-600">Portfolio</p>
+<navbar />
 </template>
 
-<script>
-export default {
-  name: "Portfolio"
-}
+<script setup>
+import Navbar from "@/shared/components/Navbars/Navbar.vue";
 </script>
-
-<style scoped>
-
-</style>
