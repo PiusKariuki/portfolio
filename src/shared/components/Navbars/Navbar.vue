@@ -2,7 +2,7 @@
   <div class="flex content-container justify-between items-center">
     <svg
         @click="emits('toggleSidebar')"
-        class="w-12"
+        class="h-10"
         aria-hidden="true"
         fill="none"
         stroke="currentColor"
@@ -17,8 +17,8 @@
     </svg>
     <p class="nav-text hidden">About Me</p>
     <p class="nav-text hidden">Portfolio</p>
-    <img src="/imgs/punch.svg" alt="" class="w-12">
-    <button class="rounded-3xl px-6 py-2 bg-slate-200">Contact Me</button>
+    <img src="/imgs/punch.svg" alt="" class="h-10">
+    <button class="h-10 rounded-3xl px-6  bg-slate-200 font-semibold">Contact Me</button>
   </div>
 </template>
 
