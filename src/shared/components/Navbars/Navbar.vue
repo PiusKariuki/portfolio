@@ -1,5 +1,5 @@
 <template>
-  <div class="flex content-container justify-between items-center">
+  <div class="flex content-container justify-between items-center z-50">
     <svg
         @click="emits('toggleSidebar')"
         class="h-10"
@@ -18,7 +18,7 @@
     <p class="nav-text hidden">About Me</p>
     <p class="nav-text hidden">Portfolio</p>
     <img src="/imgs/punch.svg" alt="" class="h-10">
-    <button class="h-10 rounded-3xl px-6  bg-slate-200 font-semibold">Contact Me</button>
+    <button class="h-10 rounded-3xl px-6  bg-slate-200 font-semibold z-50">Contact Me</button>
   </div>
 </template>
 
