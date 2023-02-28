@@ -1,7 +1,7 @@
 <template>
   <navbar @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen"/>
   <sidebar @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen" v-if="state.isSidebarOpen"/>
-  <hero-section />
+<!--  <hero-section />-->
 </template>
 
 <script setup>
