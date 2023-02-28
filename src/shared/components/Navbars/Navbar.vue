@@ -44,7 +44,7 @@
           v-for="(item, index) in navItems"
           :href="item.link">
         <span class="text-green">0{{index + 1}}. </span>
-        About
+        {{item.text}}
       </a>
 
       <button class="cta">Resume`</button>
@@ -54,24 +54,7 @@
 
 <script setup>
 
+import {navItems} from "@/shared/data/navItems.js";
+
 const emits = defineEmits(['toggleSidebar'])
-const navItems = [
-  {
-    id: 0,
-    text: "About",
-    link: "#"
-  }, {
-    id: 1,
-    text: "Experience",
-    link: "#"
-  }, {
-    id: 2,
-    text: "Work",
-    link: "#"
-  }, {
-    id: 3,
-    text: "Contact",
-    link: "#"
-  },
-]
 </script>
