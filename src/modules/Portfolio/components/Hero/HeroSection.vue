@@ -1,19 +1,25 @@
 <template>
-  <div class="content-container flex flex-col">
-    <div
-
-        class="w-7/12 h-96 bg-cover  rounded-b-full rotate-45 rounded-b-full bg-orange-600 fixed -top-[0%]
-        -right-[10%] overflow-clip">
-<!--      <div class="flex w-full h-1/2 ">-->
-        <img
-            alt=""
-             class="absolute bottom-0 -rotate-45 w-[900px]"
-             src="/imgs/kariuki.png">
-<!--      </div>-->
-
-    </div>
+  <div class="content-container flex flex-col pt-32 md:pt-0 gap-2">
+    <p class="font-golos text-green sm">Hi, my name is</p>
+    <p class="text-lightest-slate name font-semibold leading-[1.1]">Pius.</p>
+    <p class="text-slate by-line font-light leading-snug">I build things for the web.</p>
+    <p class="text-slate md mt-3">
+      I’m a software engineer specializing in building (and occasionally designing) exceptional digital
+      experiences. Currently, I’m focused on building accessible, human-centered products at
+      <span class="text-green">Upstatement.</span>
+    </p>
+    <button class="cta mt-12  py-[0.75rem] w-44">Reach out!</button>
   </div>
 </template>
 
 <script setup></script>
 
+<style>
+.name{
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+.by-line{
+  font-size: clamp(40px, 8vw, 80px);
+}
+</style>

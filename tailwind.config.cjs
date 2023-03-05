@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -21,6 +23,10 @@ module.exports = {
         "green-tint": "rgba(100,255,218,0.1)",
         "pink": "#f57dff",
         "blue": "#57cbff"
+      },
+      fontFamily: {
+        jura: ['"Jura"', ...defaultTheme.fontFamily.sans],
+        golos: ['"Golos Text"', defaultTheme.fontFamily.sans]
       }
     },
   },
