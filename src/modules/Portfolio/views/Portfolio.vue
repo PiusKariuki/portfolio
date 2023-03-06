@@ -5,7 +5,8 @@
     <hero-section />
     <highlights />
   </div>
-
+  <companies />
+  <about-me />
 </template>
 
 <script setup>
@@ -14,6 +15,8 @@ import Sidebar from "@/shared/components/Sidebars/Sidebar.vue";
 import {reactive} from "vue";
 import HeroSection from "@/modules/Portfolio/components/Hero/HeroSection.vue";
 import Highlights from "@/modules/Portfolio/components/Highlights/Highlights.vue";
+import AboutMe from "@/modules/Portfolio/components/About/AboutMe.vue";
+import Companies from "@/modules/Portfolio/components/Companies/Companies.vue";
 
 const state = reactive({
   isSidebarOpen: false

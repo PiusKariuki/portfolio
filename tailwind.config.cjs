@@ -26,7 +26,6 @@ module.exports = {
       },
       fontFamily: {
         jura: ['"Jura"', ...defaultTheme.fontFamily.sans],
-        golos: ['"Golos Text"', defaultTheme.fontFamily.sans]
       }
     },
   },
