@@ -1,26 +1,27 @@
 <template>
-  <div class="flex flex-col gap-2 w-full mt-7 md:hidden">
+  <div class="hidden md:flex flex-row gap-2 w-full mt-7 max-w-3xl mx-auto">
     <div
-        class="flex items-center  relative transition overflow-x-scroll parent"
+        class="flex flex-col w-fit relative transition parent"
         role="tablist"
     >
-      <div class="absolute w-32 indicator h-[2px] z-10 my-auto bottom-0 left-0 rounded-full bg-green shadow-md"/>
+      <div class="absolute w-1 indicator h-[32px] z-10 my-auto -left-0.5 z-10  bg-green shadow-md"/>
       <button
           v-for="place in places"
           :id="place.id"
           :key="place.id"
           :aria-controls="place.name"
-          :class="[state.selectedWorkplaceID === place.id ? 'bg-light-navy': ' border-light-navy']"
-          class="relative block h-10 px-6 tab  whitespace-nowrap transition duration-[400ms] border-b-2"
+          :class="[state.selectedWorkplaceID === place.id ? 'bg-light-navy border-green-tint': ' border-light-navy']"
+          class="relative block h-10 px-6 tab  whitespace-nowrap transition duration-[400ms] text-left border-l-2"
           role="tab"
           @click="state.selectedWorkplaceID = place.id">
         <span class="text-lightest-slate">{{ place.name }}</span>
       </button>
     </div>
+
     <div class="flex flex-col text-lightest-slate px-6">
       <p class="font-medium xxl">
         {{ selectedPlaceDetails.position }}
-        <span class="text-green md">@ {{ selectedPlaceDetails.name }}</span>
+        <span class="text-green ">@ {{ selectedPlaceDetails.name }}</span>
       </p>
       <p class="xs text-light-slate">{{ selectedPlaceDetails.duration }}</p>
       <div class="flex flex-col gap-4 w-full py-4">
@@ -43,8 +44,9 @@
 </template>
 
 <script setup>
-import {computed, onMounted, onUnmounted, reactive} from "vue";
 import {places} from "@/shared/data/placesWorked.js";
+import {computed, onMounted, reactive} from "vue";
+
 
 const state = reactive({
   selectedWorkplaceID: places[0].id,
@@ -63,15 +65,15 @@ onMounted(() => {
   state.indicator = document.querySelector(".indicator")
   state.panels = document.querySelectorAll(".tab-panel")
 
-  state.indicator.style.width = state.tabs[0].getBoundingClientRect().width + 'px'
-  state.indicator.style.left = state.tabs[0].getBoundingClientRect().left - state.tabs[0].parentElement.getBoundingClientRect().left + 'px'
+  state.indicator.style.height = state.tabs[0].getBoundingClientRect().height + 'px'
+  state.indicator.style.top = state.tabs[0].getBoundingClientRect().top - state.tabs[0].parentElement.getBoundingClientRect().top + 'px'
 
 
   state.tabs.forEach(tab => {
 
     tab.addEventListener('click', () => {
-      state.indicator.style.width = tab.getBoundingClientRect().width + 'px'
-      state.indicator.style.left = tab.offsetLeft + 'px'
+      state.indicator.style.height = tab.getBoundingClientRect().height + 'px'
+      state.indicator.style.top = tab.offsetTop + 'px'
 
       let tabTarget = tab.getAttribute("aria-controls")
 
@@ -88,19 +90,14 @@ onMounted(() => {
       })
     })
   })
+
+
 })
-
-
-onUnmounted(()=>{
-  state.tabs.forEach(tab =>{
-    tab.removeEventListener("click")
-  })
-})
-
 </script>
 
 <style scoped>
 .indicator {
-  transition: left .4s;
+  transition: top .4s;
 }
 </style>
+
