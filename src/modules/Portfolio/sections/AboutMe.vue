@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container flex flex-col gap-6">
+  <div class="content-container flex flex-col gap-6 mt-16">
     <heading number="01" text="About Me" />
     <p class="">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
