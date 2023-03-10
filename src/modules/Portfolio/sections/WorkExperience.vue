@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container flex flex-col gap-6 mt-16 md:items-center">
+  <div class="content-container flex flex-col gap-6 my-20 lg:my-32 md:items-center">
     <heading number="02" text="Where I've Worked"/>
     <mobile-experience-carousel v-if="isMobile"/>
     <desktop-experience-carousel v-if="!isMobile"/>

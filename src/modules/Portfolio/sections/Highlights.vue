@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container flex flex-col gap-2 pt-10 md:pt-0">
+  <div class="flex flex-col gap-2 pt-10 md:pt-0">
     <p class="text-green xl">Highlights</p>
     <div class="flex flex-col gap-6">
       <div

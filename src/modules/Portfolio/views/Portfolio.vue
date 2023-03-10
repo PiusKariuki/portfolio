@@ -1,7 +1,7 @@
 <template>
   <navbar @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen"/>
   <sidebar v-if="state.isSidebarOpen" @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen"/>
-  <div class="flex w-full flex-col md:flex-row md:pt-24">
+  <div class="content-container flex w-full flex-col md:flex-row md:pt-24 md:gap-12 items-center">
     <hero-section/>
     <highlights/>
   </div>
@@ -9,6 +9,7 @@
   <about-me/>
   <work-experience/>
   <projects-section/>
+  <get-in-touch />
 </template>
 
 <script setup>
@@ -21,6 +22,7 @@ import AboutMe from "@/modules/Portfolio/sections/AboutMe.vue";
 import Companies from "@/modules/Portfolio/sections/Companies.vue";
 import WorkExperience from "@/modules/Portfolio/sections/WorkExperience.vue";
 import ProjectsSection from "@/modules/Portfolio/sections/ProjectsSection.vue";
+import GetInTouch from "@/modules/Portfolio/sections/GetInTouch.vue";
 
 const state = reactive({
   isSidebarOpen: false
