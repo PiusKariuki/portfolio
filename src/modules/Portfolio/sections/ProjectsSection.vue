@@ -1,7 +1,7 @@
 <template>
   <div class="content-container flex flex-col gap-6 mt-16 md:items-center">
-    <heading number="03" text="Some Things I've Built" />
-    <div class="flex flex-col w-full gap-8">
+    <heading number="03" text="Some Things I've Built" class="max-w-6xl" />
+    <div class="flex flex-col w-full gap-8 md:gap-12 items-center max-w-6xl">
       <mobile-project-card v-for="(item, index) in projects" :item="item" :key="index" class="md:hidden" />
       <desktop-project-card
           :is-even="index%2 == 0"
