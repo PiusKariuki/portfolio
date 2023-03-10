@@ -2,19 +2,22 @@
   <div class="w-full px-4 py-8 flex flex-col text-white shadow-2xl bg-green-tint relative rounded-md">
     <img
         alt=""
-        class="absolute inset-0 w-full h-full opacity-10" src="/imgs/screenshots/speeddates.png">
+        class="absolute inset-0 w-full h-full opacity-10 object-cover" :src="item.image">
     <div class="flex flex-col z-20">
       <p class="xs text-green">Featured Project</p>
-      <p class="xxl font-bold tracking-wide text-white hover:text-green cursor-pointer">Spotify profile</p>
+      <p class="xxl font-bold tracking-wide text-white hover:text-green cursor-pointer">{{item.name}}</p>
       <p class="lg text-white mt-3">
-        A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks,
-        and detailed audio information about each track. Create and save new playlists of recommended tracks based on
-        your
-        existing playlists and more.
+        {{item.desc}}
       </p>
-      <p class="lg text-white mt-8">React Express NodeJS</p>
+      <div class="flex items-center gap-4 mt-8">
+        <p
+            v-for="(tech, index) in item.technologies"
+            :key="index"
+            class="lg text-white ">{{tech}}</p>
+      </div>
 
       <svg
+
           class="h-6 w-6 mt-6 cursor-pointer"
           aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.0" viewBox="0 0 24 24"
            xmlns="http://www.w3.org/2000/svg">
@@ -29,5 +32,6 @@
 </template>
 
 <script setup>
+const props = defineProps(['item'])
 </script>
 
