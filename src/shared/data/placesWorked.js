@@ -34,9 +34,9 @@ export const places = [
         link: "https://reggycodas.com/",
         roles: [
             'Write modern, performant, maintainable code for a diverse array of client and internal projects',
-            'Work with a variety of different languages, platforms, frameworks, and content management systems such as' +
+            'Work with a variety of different languages, platforms and frameworks such as' +
             ' JavaScript, TypeScript, Next JS, React, Vue JS, Node JS, MongoDB, and Netlify.',
-            'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
+            'Communicate with multi-disciplinary teams of engineers, designers, and clients on a daily basis'
         ]
     },
 ]

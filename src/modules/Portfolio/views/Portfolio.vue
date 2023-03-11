@@ -17,7 +17,6 @@ import Sidebar from "@/shared/components/Sidebars/Sidebar.vue";
 import {reactive} from "vue";
 import HeroSection from "@/modules/Portfolio/sections/HeroSection.vue";
 import Highlights from "@/modules/Portfolio/sections/Highlights.vue";
-import AboutMe from "@/modules/Portfolio/sections/AboutMe.vue";
 import Companies from "@/modules/Portfolio/sections/Companies.vue";
 import WorkExperience from "@/modules/Portfolio/sections/WorkExperience.vue";
 import ProjectsSection from "@/modules/Portfolio/sections/ProjectsSection.vue";

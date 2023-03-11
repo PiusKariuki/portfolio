@@ -1,6 +1,6 @@
 <template>
-  <div id="projects" class="content-container flex flex-col gap-6 mt-16 w-full">
-    <heading class="max-w-6xl" number="02" text="Some Things I've Built"/>
+  <div id="projects" class="content-container flex flex-col gap-6 mt-16 w-full items-center">
+    <heading class="max-w-6xl" number="02" text="Some Things I've Built" />
     <div class="flex flex-col w-full gap-24 md:gap-44 items-center py-12 ">
 
       <div
@@ -26,7 +26,7 @@
             {{item.desc}}
           </div>
           <div
-              :class="[index % 2 == 0 ? 'md:pr-[50%]' : 'md:pl-[48%] text-right justify-end']"
+              :class="[index % 2 == 0 ? 'md:pr-[50%]' : 'md:pl-[48%] md:text-right md:justify-end']"
               class="flex flex-wrap items-center gap-x-4 gap-y-1 my-2">
             <p
                 v-for="(tech, index) in item.technologies"

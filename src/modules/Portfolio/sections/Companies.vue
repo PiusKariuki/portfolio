@@ -1,11 +1,11 @@
 <template>
   <div class="content-container text-lightest-slate ">
     <div class="flex flex-col md:flex-row shadow-lg rounded-lg bg-green-tint w-full p-4 md:py-16 gap-3 md:justify-between">
-      <div class="flex flex-col gap-2 max-w-sm">
+      <div class="flex flex-col gap-6 max-w-sm">
         <p class="text-green font-light lg md:xl tracking-wide">
           Trusted by organizations all over the world including.
         </p>
-        <p class="hidden md:flex">
+        <p class="hidden md:flex md">
           I have worked and continue to work with these amazing brands and companies.
         </p>
       </div>

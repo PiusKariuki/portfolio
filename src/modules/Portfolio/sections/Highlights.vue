@@ -27,7 +27,7 @@ const highlights = [
   {
     title: "Back End Developer",
     image: "/imgs/cog.svg",
-    description: "I build APIs and organize models for persisting data for applications."
+    description: "I build APIs and organize models to persist data for applications."
   },
 ]
 </script>
