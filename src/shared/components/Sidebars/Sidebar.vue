@@ -12,6 +12,7 @@
 
       <div class="flex flex-col h-full justify-center mx-auto self-center w-1/2 gap-6 text-lightest-slate">
         <a
+            @click="emits('toggleSidebar')"
             v-for="(item, index) in navItems"
             :href="item.link"
             class="sm text-center">

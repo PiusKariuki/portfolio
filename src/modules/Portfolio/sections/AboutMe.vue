@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container flex flex-col gap-6 mt-16 md:items-center">
+  <div id="about" class="content-container flex flex-col gap-6 mt-16 md:items-center">
     <heading number="01" text="About Me" class="max-w-5xl" />
     <p class="max-w-5xl">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
