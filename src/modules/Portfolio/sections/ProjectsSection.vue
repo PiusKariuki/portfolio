@@ -19,13 +19,11 @@
             class="flex flex-col gap-4 text-lightest-slate bg-lightest-navy md:bg-transparent
              md:w-8/12 md:pt-0">
           <p class="xs text-green">Featured Project</p>
-          <p class="xxl font-bold tracking-wide text-white hover:text-green cursor-pointer -mt-3">Spotify profile</p>
+          <p class="xxl font-bold tracking-wide text-white hover:text-green cursor-pointer -mt-3">{{item.name}}</p>
           <div
               :class="[index % 2 == 0? 'md:pr-[10%]' : 'text-right md:pl-[10%]']"
               class="md:bg-light-navy md:px-4 md:py-8 md:rounded-lg md:lg">
-            A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played
-            tracks, and detailed audio information about each track. Create and save new playlists of recommended
-            tracks based on your existing playlists and more.
+            {{item.desc}}
           </div>
           <div class="flex flex-wrap items-center gap-4">
             <p
@@ -58,4 +56,5 @@
 
 <script setup>
 import Heading from "@/shared/components/Heading.vue";
-import {projects} from "@/shared/data/projects.js";</script>
+import {projects} from "@/shared/data/projects.js";
+</script>
