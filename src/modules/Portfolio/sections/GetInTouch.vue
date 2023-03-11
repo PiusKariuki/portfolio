@@ -6,7 +6,9 @@
       or just want to say hi, I’ll try my best to get back to you!
     </p>
 
-    <button class="cta py-3 px-8">Say Hello</button>
+    <a
+        href="mailto:piuskariuki19@gmail.com"
+        class="cta mt-12  py-[0.75rem] w-44 flex items-center justify-center">Say Hello</a>
   </div>
 </template>
 

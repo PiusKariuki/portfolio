@@ -40,14 +40,22 @@
 
     <div class="hidden md:flex items-center gap-6 text-lightest-slate">
       <a
-          class="xs"
           v-for="(item, index) in navItems"
-          :href="item.link">
-        <span class="text-green">0{{index + 1}}. </span>
-        {{item.text}}
+          :href="item.link"
+          class="xs">
+        <span class="text-green">0{{ index + 1 }}. </span>
+        {{ item.text }}
       </a>
 
-      <button class="cta">Resume`</button>
+
+      <a
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta flex items-center justify-center"
+          href="https://docs.google.com/document/d/e/2PACX-1vTBhvwagxNSfxi35WV0d9atq2qacraZbPZkKOpVyRFpzm-VrEzUt-ULTWqDBlGGrCIRI-MMQAOjYfLa/pub">
+        Resume`
+      </a>
+
     </div>
   </div>
 </template>

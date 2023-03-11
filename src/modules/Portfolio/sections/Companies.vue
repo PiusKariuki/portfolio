@@ -8,7 +8,6 @@
         <p class="hidden md:flex">
           I have worked and continue to work with these amazing brands and companies.
         </p>
-        <button class="cta my-6  py-[0.75rem] w-full md:w-44 md:mt-auto">Reach out!</button>
       </div>
 
       <div class="grid grid-cols-2 gap-1 w-full max-w-xl">
