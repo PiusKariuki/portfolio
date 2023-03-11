@@ -68,9 +68,6 @@ const state = reactive({
 })
 
 
-const isMobile = computed(() => window.innerWidth < 768)
-
-
 const selectedPlaceDetails = computed(() =>
     places.find(item => item.id === state.selectedWorkplaceID)
 )
