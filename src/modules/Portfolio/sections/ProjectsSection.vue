@@ -15,17 +15,17 @@
              -translate-x-1/2 object-cover z-10 bg-lightest-navy md:w-8/12 md:top-1/2 md:-z-10 "
         >
         <div
-            :class="[index % 2 == 0 ? '' : 'self-end items-end']"
-            class="flex flex-col gap-4 text-lightest-slate bg-lightest-navy md:bg-transparent
-             md:w-8/12 md:pt-0">
+            :class="[index % 2 == 0 ? '' : 'md:self-end md:items-end']"
+            class="flex flex-col gap-4 text-lightest-slate bg-lightest-navy md:bg-transparent w-full
+             md:w-8/12 px-4 pb-8 pt-[55%] md:pt-0 rounded-2xl">
           <p class="xs text-green">Featured Project</p>
           <p class="xxl font-bold tracking-wide text-white hover:text-green cursor-pointer -mt-3">{{item.name}}</p>
           <div
-              :class="[index % 2 == 0? 'md:pr-[10%]' : 'text-right md:pl-[10%]']"
+              :class="[index % 2 == 0? 'md:pr-[10%]' : 'md:text-right md:pl-[10%]']"
               class="md:bg-light-navy md:px-4 md:py-8 md:rounded-lg md:lg">
             {{item.desc}}
           </div>
-          <div class="flex flex-wrap items-center gap-4">
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1 my-2">
             <p
                 v-for="(tech, index) in item.technologies"
                 :key="index"
