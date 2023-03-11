@@ -6,7 +6,6 @@
     <highlights/>
   </div>
   <companies/>
-  <about-me/>
   <work-experience/>
   <projects-section/>
   <get-in-touch />
