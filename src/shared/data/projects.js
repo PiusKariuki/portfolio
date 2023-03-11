@@ -17,7 +17,7 @@ export const projects = [
         name: "Welz",
         image: "/imgs/screenshots/welz.png",
         desc: "An urgent healthcare platform where clients book appointments for home care, covid testing and hospital visits",
-        technologies: ['VS Code', 'Sublime Text', 'Atom', 'Hyper'],
+        technologies: ['Vue JS', 'TailwindCSS'],
         link: "https://www.welz.com/"
     },
 

@@ -25,7 +25,9 @@
               class="md:bg-light-navy md:px-4 md:py-8 md:rounded-lg md:lg">
             {{item.desc}}
           </div>
-          <div class="flex flex-wrap items-center gap-x-4 gap-y-1 my-2">
+          <div
+              :class="[index % 2 == 0 ? 'md:pr-[50%]' : 'md:pl-[48%] text-right justify-end']"
+              class="flex flex-wrap items-center gap-x-4 gap-y-1 my-2">
             <p
                 v-for="(tech, index) in item.technologies"
                 :key="index"
