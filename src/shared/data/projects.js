@@ -25,7 +25,6 @@ export const projects = [
                  no appointment or referrals policy.
                  </span>
                  The platform helps users pre-register for covid-19 testing, vaccinations, X-Ray imaging and other lab tests.
-   
                   </p>
                 <p
                  class="motto">
