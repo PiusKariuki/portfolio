@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-2 pt-10 md:pt-0 w-full">
-    <p class="text-green xl">Highlights</p>
+    <p class="text-green font-semibold xxl mb-3">Highlights</p>
     <div class="flex flex-col gap-6">
       <div
           v-for="(item, index) in highlights"
@@ -8,8 +8,8 @@
            class="flex flex-col w-full shadow-lg px-[20px] py-[25px] rounded-md
            text-lightest-slate bg-light-navy gap-2">
         <img :src="item.image" alt="" class="w-10">
-        <p class="xl text-green">{{item.title}}</p>
-        <p class="sm lg:md tracking-wide">{{item.description}}</p>
+        <p class="xxl text-green">{{item.title}}</p>
+        <div v-html="item.description" class="md lg:md tracking-wide" />
       </div>
     </div>
   </div>
@@ -21,8 +21,10 @@ const highlights = [
   {
     title: "Front End Developer",
     image: "/imgs/tag.svg",
-    description: "I help bring intuitive and elegant designs to life." +
-        "I am a very visual person and there's nothing I admire more than a well thought out interface."
+    description: `<p>
+                    I build intuitive and elegant interfaces.<br />I am a very visual person and there's nothing I
+                    admire more than a refined interface.
+                    </p>`
   },
   {
     title: "Back End Developer",
