@@ -4,7 +4,7 @@
     <p class="text-lightest-slate name font-semibold leading-[1.1]">Pius Kariuki.</p>
     <p class="text-slate by-line font-light leading-none my-6 w-full">I am a software engineer.</p>
     <p class="text-slate lg mt-3 lg:w-10/12">
-      I specialize in building exceptional digital experiences. Currently, I’m focused on building accessible
+      I specialize in building exceptional digital experiences. I’m currently building and maintaining accessible
       healthcare platforms at
       <span class="text-green">Welz.</span>
     </p>

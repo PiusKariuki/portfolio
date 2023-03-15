@@ -1,7 +1,7 @@
 export const places = [
     {
         id: 0,
-        name: "Welz Urgent Care",
+        name: "Welz",
         position: "Front End Developer",
         duration: "November 2022 - Present",
         link: "https://www.welz.com/",
@@ -33,7 +33,7 @@ export const places = [
         duration: "November 2021 - June 2022",
         link: "https://reggycodas.com/",
         roles: [
-            'Write modern, performant, maintainable code for a diverse array of client and internal projects',
+            'Write modern, performant, maintainable code for a diverse array of client and internal projects.',
             'Work with a variety of different languages, platforms and frameworks such as' +
             ' JavaScript, TypeScript, Next JS, React, Vue JS, Node JS, MongoDB, and Netlify.',
             'Communicate with multi-disciplinary teams of engineers, designers, and clients on a daily basis'

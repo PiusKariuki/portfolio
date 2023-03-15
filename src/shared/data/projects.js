@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: "Welz",
-        image: "/imgs/screenshots/welz.png",
+        image: "/imgs/screenshots/welz_2.png",
         desc: `<p>Welz is a healthcare company that offers 
                 <span
                  class="text-green  font-thin tracking-wider">
@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         name: "+Medrite",
-        image: "/imgs/screenshots/medrite.png",
+        image: "/imgs/screenshots/medrite_2.png",
         desc: `<p>+Medrite is an urgent healthcare provider that has a 
                 <span
                  class="text-green  font-thin tracking-wider">
@@ -37,7 +37,7 @@ export const projects = [
     },
     {
         name: "Speed Dates Kenya",
-        image: "/imgs/screenshots/speeddates.png",
+        image: "/imgs/screenshots/speeddates_2.png",
         desc: `<p>A Web application where single professionals can book events, socialize, network and meet potential partners
                  </p>`,
         technologies: ['React JS', 'Node JS', 'MongoDB', 'GraphQL', 'TailwindCSS', 'Daraja'],
