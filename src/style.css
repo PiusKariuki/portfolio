@@ -84,4 +84,8 @@ input[type="number"] {
     .cta {
         @apply px-4 py-1 rounded-[4px] border-[1px] text-green border-green bg-transparent hover:bg-green-tint;
     }
+
+    .motto{
+        @apply text-green sm font-thin tracking-wide mt-3 italic;
+    }
 }

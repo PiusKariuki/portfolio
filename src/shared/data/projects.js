@@ -8,11 +8,10 @@ export const projects = [
                  medical testing right where you are.
                  </span>
                  
-                 <br />
-                <span
-                 class="text-green  font-thin tracking-wider">
-                 You have places to go. The clinic isn't one of them.
-                 </span>
+                 </p>
+                <p
+                 class="motto">
+                 "You have places to go. The clinic isn't one of them."
                  </p>`,
         technologies: ['Vue JS', 'TailwindCSS'],
         link: "https://www.welz.com/"
@@ -26,11 +25,11 @@ export const projects = [
                  no appointment or referrals policy.
                  </span>
                  The platform helps users pre-register for covid-19 testing, vaccinations, X-Ray imaging and other lab tests.
-                 <br /> 
-                <span
-                 class="text-green  font-thin tracking-wider">
-                 Save time. Feel better.
-                 </span>
+   
+                  </p>
+                <p
+                 class="motto">
+                 "Save time. Feel better."
                  </p>`,
         technologies: ['Vue JS', 'TailwindCSS'],
         link: "https://medriteurgentcare.com/"
@@ -38,8 +37,14 @@ export const projects = [
     {
         name: "Speed Dates Kenya",
         image: "/imgs/screenshots/speeddates_2.png",
-        desc: `<p>A Web application where single professionals can book events, socialize, network and meet potential partners
-                 </p>`,
+        desc: `<p>
+A Web application where single professionals can book events, socialize, network and meet potential partners.
+                 </p>
+ <p
+                 class="motto">
+                 "Socialize, network, date."
+                 </p>
+`,
         technologies: ['React JS', 'Node JS', 'MongoDB', 'GraphQL', 'TailwindCSS', 'Daraja'],
         link: "https://speeddateskenya.com/"
     },
