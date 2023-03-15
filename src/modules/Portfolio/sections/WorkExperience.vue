@@ -1,8 +1,8 @@
 <template>
-  <div id="experience" class="content-container flex flex-col gap-6 my-20 lg:my-32 md:items-center">
-    <heading number="01" text="Where I've Worked"/>
+  <div id="experience" class="content-container flex flex-col gap-6 ">
+    <heading number="01" text="Work Experience"/>
 
-    <div class="flex flex-col md:flex-row gap-2 w-full mt-7 max-w-3xl">
+    <div class="flex flex-col md:flex-row gap-2 w-full mt-7 max-w-5xl">
       <div
           class="flex md:flex-col items-center md:items-start h-20 md:h-full md:w-4/12 relative transition overflow-x-scroll
            md:overflow-x-clip md:gap-5 lg:border-l-[1px] border-lightest-navy"
@@ -34,6 +34,7 @@
         <p class="xs text-light-slate">{{ selectedPlaceDetails.duration }}</p>
         <div class="flex flex-col gap-4 w-full py-4">
           <div
+              :key="index"
               v-for="(role, index) in selectedPlaceDetails.roles"
               class="flex w-full gap-2 flex-shrink-0 items-start">
             <svg
