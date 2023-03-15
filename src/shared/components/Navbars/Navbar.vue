@@ -1,5 +1,5 @@
 <template>
-  <div class="flex content-container py-[25px] lg:py-[40px] justify-between items-center z-50">
+  <div class="flex content-container py-[25px] lg:py-[40px] justify-between items-center z-50 ah">
     <svg class="w-[42px] h-[42px] text-green" fill="none" viewBox="0 0 84 96" xmlns="http://www.w3.org/2000/svg">
       <g transform="translate(3.000000, 2.000000)">
         <g transform="translate(15.000000, 18.000000)">
