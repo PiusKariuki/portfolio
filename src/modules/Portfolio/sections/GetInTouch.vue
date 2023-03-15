@@ -1,7 +1,7 @@
 <template>
-  <div id="contact" class="content-container flex flex-col gap-6 items-center ">
+  <div id="contact" class="content-container flex flex-col gap-6 ">
     <p class="text-[60px] font-semibold text-lightest-slate">Get In Touch</p>
-    <p class="text-[20px] text-lightest-slate lg:w-1/2 text-center">
+    <p class="text-[20px] text-lightest-slate lg:w-1/2 ">
       Got a question or have a proposal ? Let's chat. 😁
     </p>
 
