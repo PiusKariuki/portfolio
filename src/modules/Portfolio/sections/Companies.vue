@@ -12,7 +12,7 @@
 
       <div class="grid grid-cols-2 gap-1 w-full">
         <img
-            class="w-full object-scale-down h-32  lg:h-48 bg-lightest-navy"
+            class="w-full object-scale-down h-32  lg:h-40 p-2 bg-lightest-navy"
             :key="index"
             v-for="(item, index) in companies"
             :src="item" alt="">
