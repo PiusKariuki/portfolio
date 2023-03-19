@@ -5,7 +5,7 @@
     <div class="flex flex-col md:flex-row gap-2 w-full mt-7 max-w-5xl">
       <div
           class="flex md:flex-col items-center md:items-start h-20 md:h-full md:w-4/12 relative transition overflow-x-scroll
-           md:overflow-x-clip md:gap-5 lg:border-l-[1px] border-lightest-navy"
+           md:overflow-x-clip md:gap-5 lg:border-l-[1px] border-lightest-navy parent"
           role="tablist"
       >
         <div class="absolute w-32 md:w-1 indicator h-[2px] md:h-[32px] z-10 my-auto top-[90%] md:top-0
@@ -24,7 +24,7 @@
           <span class="text-lightest-slate cursor-pointer">{{ place.name }}</span>
         </button>
       </div>
-      <div class="flex flex-col text-lightest-slate px-6 w-full">
+      <div class="flex flex-col text-lightest-slate px-6 w-full overflow-x-scroll">
         <p class="font-medium xxl">
           {{ selectedPlaceDetails.position }}
           <a :href="selectedPlaceDetails.link" class="text-green md md:lg" target="_blank">@ {{
@@ -125,6 +125,7 @@ onMounted(() => {
         state.indicator.style.height = '2px'
         state.indicator.style.width = tab.getBoundingClientRect().width + 'px'
         state.indicator.style.left = tab.offsetLeft + 'px'
+        document.getElementById(state.selectedWorkplaceID).scrollIntoView({behavior: 'smooth'})
       } else {
         state.indicator.style.width = '4px'
 
