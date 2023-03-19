@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col gap-2 pt-10 md:pt-0 w-full">
     <p class="text-green font-semibold xxl mb-3">Highlights</p>
-    <div class="flex flex-col gap-6">
+    <div class="flex flex-col gap-6 lg:gap-10">
       <div
           v-for="(item, index) in highlights"
           :key="index"
-           class="flex flex-col w-full shadow-lg px-[20px] py-[25px] rounded-md
-           text-lightest-slate bg-light-navy gap-2">
-        <img :src="item.image" alt="" class="w-10">
+           class="flex flex-col w-full shadow-lg px-[20px] py-[15px] rounded-md justify-center
+           text-lightest-slate bg-light-navy gap-4 h-60">
+        <img :src="item.image" alt="" class="w-6 h-6 lg:w-10 lg:h-10 text-green">
         <p class="xxl text-green">{{item.title}}</p>
         <div v-html="item.description" class="md lg:md tracking-wide" />
       </div>
@@ -20,7 +20,7 @@
 const highlights = [
   {
     title: "Front End Developer",
-    image: "/imgs/tag.svg",
+    image: "/imgs/code-solid.svg",
     description: `<p>
                     I build intuitive and elegant interfaces.<br />I am a very visual person and there's nothing I
                     admire more than a refined interface.
@@ -28,7 +28,7 @@ const highlights = [
   },
   {
     title: "Back End Developer",
-    image: "/imgs/cog.svg",
+    image: "/imgs/gear-solid.svg",
     description: "I build APIs and organize models to persist data for applications."
   },
 ]
