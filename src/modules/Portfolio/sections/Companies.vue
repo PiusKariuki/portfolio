@@ -12,7 +12,7 @@
 
       <div class="grid grid-cols-2 gap-1 w-full">
         <img
-            class="bg-green w-full object-scale-down h-32  lg:h-48"
+            class="w-full object-scale-down h-32  lg:h-48 bg-lightest-navy"
             :key="index"
             v-for="(item, index) in companies"
             :src="item" alt="">
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-const companies = ['/imgs/medrite.svg', '/imgs/welz.png', '/imgs/xeron.svg', '/imgs/speeddates.jpg']
+const companies = ['/imgs/companies/medrite.svg', '/imgs/companies/welz.svg', '/imgs/companies/xeron.svg', '/imgs/companies/speeddates.svg']
 </script>
 
 <style scoped>
