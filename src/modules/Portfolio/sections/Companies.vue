@@ -1,6 +1,6 @@
 <template>
   <div class="content-container text-lightest-slate ">
-    <div class="flex flex-col md:flex-row shadow-lg w-full rounded-lg bg-light-navy  p-4 md:py-16 gap-3  md:gap-12">
+    <div class="flex flex-col md:flex-row shadow-lg w-full rounded-lg bg-light-navy  p-4 lg:pr-20 md:py-16 gap-3  md:gap-12 md:justify-between">
       <div class="flex flex-col gap-6 max-w-sm">
         <p class="text-green h2 mb-3">
           Organizations I have worked with.
@@ -10,9 +10,9 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-2 gap-1 w-full">
+      <div class="grid grid-cols-2 gap-1 w-full lg:w-[45.5%]">
         <img
-            class="w-full object-scale-down h-32  lg:h-40 p-2 bg-lightest-navy"
+            class="w-full object-contain h-28 lg:h-32 p-3 lg:p-6 bg-lightest-navy"
             :key="index"
             v-for="(item, index) in companies"
             :src="item" alt="">
