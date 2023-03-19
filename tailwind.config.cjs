@@ -26,6 +26,9 @@ module.exports = {
       },
       fontFamily: {
         jura: ['"Jura"', ...defaultTheme.fontFamily.sans],
+      },
+      screens: {
+        '3xl': '1600px'
       }
     },
   },
