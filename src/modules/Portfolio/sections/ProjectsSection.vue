@@ -18,15 +18,15 @@
             :class="[index % 2 == 0 ? '' : 'lg:self-end lg:items-end']"
             class="flex flex-col gap-4 text-lightest-slate bg-lightest-navy lg:bg-transparent w-full
              lg:max-w-[580px] 3xl:max-w-2xl px-4 pb-8 pt-[55%] lg:pt-0 rounded-2xl">
-          <p class="xs text-green">Featured Project</p>
+<!--          <p class="xs text-green">Featured Project</p>-->
           <a
               :href="item.link"
-              class="heading font-bold tracking-wide text-white hover:text-green cursor-pointer -mt-3"
+              class="h2 text-white hover:text-green cursor-pointer -mt-3"
               target="_blank">
             {{ item.name }}</a>
           <div
               :class="[index % 2 == 0? 'lg:pr-[10%]' : 'lg:text-right lg:pl-[10%]']"
-              class="lg:bg-light-navy lg:px-4 lg:py-8 lg:rounded-lg lg:lg leading-loose lg:h-60 flex flex-col lg:justify-center"
+              class="lg:bg-light-navy lg:px-4 lg:py-8 lg:rounded-lg paragraph leading-loose lg:h-60 flex flex-col lg:justify-center"
               v-html="item.desc"/>
           <div
               :class="[index % 2 == 0 ? 'lg:pr-[50%]' : 'lg:pl-[48%] lg:text-right lg:justify-end']"
@@ -34,7 +34,7 @@
             <p
                 v-for="(tech, index) in item.technologies"
                 :key="index"
-                class="sm text-green font-thin cursor-pointer">{{ tech }}</p>
+                class="small-text text-green font-thin cursor-pointer">{{ tech }}</p>
           </div>
 
           <a

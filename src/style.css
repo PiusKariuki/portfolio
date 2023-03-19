@@ -5,7 +5,6 @@ body {
 }
 
 
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -17,6 +16,7 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
+
 ::-webkit-scrollbar {
     /* display: none;  */
     width: 25px;
@@ -25,6 +25,7 @@ input[type="number"] {
 ::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #778899;
     border-radius: 20px;
@@ -41,51 +42,44 @@ input[type="number"] {
 @tailwind utilities;
 
 @layer components {
-    .xxs {
-        @apply text-[12px];
+    .small-text{
+        @apply text-[13px] font-light;
     }
 
-    .xs {
-        @apply text-[13px];
-    }
-
-    .sm {
-        @apply text-[14px];
-    }
-
-    .md {
+    .paragraph {
         @apply text-[16px];
     }
 
-    .lg {
-        @apply text-[18px];
-    }
-
-    .xl {
+    .subtitle {
         @apply text-[20px];
     }
 
-    .xxl {
-        @apply text-[22px];
+    .h1 {
+        @apply text-[32px] font-bold;
     }
 
-    .heading {
-        @apply text-[32px];
+    .h2 {
+        @apply text-[25px] font-semibold;
     }
+
+    .h3{
+        @apply text-[22px] font-medium;
+    }
+
 
     .content-container {
         @apply px-4 py-8 lg:px-16 lg:py-16 w-full mx-auto max-w-[1920px];
     }
 
     .nav-text {
-        @apply text-xl font-semibold;
+        @apply subtitle font-semibold;
     }
 
     .cta {
         @apply px-4 py-1 rounded-[4px] border-[1px] text-green border-green bg-transparent hover:bg-green-tint;
     }
 
-    .motto{
-        @apply text-green sm font-thin tracking-wide mt-3 italic;
+    .motto {
+        @apply text-green small-text font-thin tracking-wide mt-3 italic;
     }
 }

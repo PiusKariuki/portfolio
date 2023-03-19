@@ -1,7 +1,7 @@
 <template>
   <navbar @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen"/>
   <sidebar v-if="state.isSidebarOpen" @toggleSidebar="state.isSidebarOpen = !state.isSidebarOpen"/>
-  <div class="content-container flex w-full flex-col md:flex-row md:pt-24 md:gap-12 items-center">
+  <div class="content-container flex w-full flex-col md:flex-row md:pt-24 md:gap-12">
     <hero-section/>
     <highlights/>
   </div>

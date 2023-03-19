@@ -21,22 +21,22 @@
             duration-[400ms] md:lg "
             role="tab"
             @click="state.selectedWorkplaceID = place.id">
-          <span class="text-lightest-slate cursor-pointer">{{ place.name }}</span>
+          <span class="text-lightest-slate cursor-pointer subtitle">{{ place.name }}</span>
         </button>
       </div>
-      <div class="flex flex-col text-lightest-slate px-6 w-full overflow-x-scroll">
-        <p class="font-medium xxl">
+      <div class="flex flex-col text-lightest-slate px-6 w-full overflow-x-scroll gap-2">
+        <p class="h3">
           {{ selectedPlaceDetails.position }}
-          <a :href="selectedPlaceDetails.link" class="text-green md md:lg" target="_blank">@ {{
+          <a :href="selectedPlaceDetails.link" class="text-green " target="_blank">@ {{
               selectedPlaceDetails.name
             }}</a>
         </p>
-        <p class="xs text-light-slate">{{ selectedPlaceDetails.duration }}</p>
+        <p class="paragraph text-light-slate">{{ selectedPlaceDetails.duration }}</p>
         <div class="flex flex-col gap-4 w-full py-4">
           <div
               :key="index"
               v-for="(role, index) in selectedPlaceDetails.roles"
-              class="flex w-full gap-2 flex-shrink-0 items-start">
+              class="flex w-full gap-2 flex-shrink-0 items-start paragraph">
             <svg
                 class="text-green w-3 h-7"
                 fill="currentColor"
@@ -45,7 +45,7 @@
               <path
                   d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
             </svg>
-            <p class="md w-full">{{ role }}</p>
+            <p class="w-full">{{ role }}</p>
           </div>
         </div>
       </div>
