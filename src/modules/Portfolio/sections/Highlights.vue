@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-2 pt-10 md:pt-0 w-full">
     <p class="text-green h1 mb-3">Highlights</p>
-    <div class="flex flex-col gap-6 lg:gap-5">
+    <div class="flex flex-col md:flex-row lg:flex-col gap-6 lg:gap-5">
       <div
           v-for="(item, index) in highlights"
           :key="index"
