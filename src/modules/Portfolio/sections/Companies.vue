@@ -10,15 +10,18 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-2 gap-1 w-full lg:w-[45.5%]">
-        <div
+      <div class="grid grid-cols-2 gap-x-1 gap-y-1 w-full lg:w-[45.5%]">
+        <a
+            :href="item.url"
+            target="_blank"
+            :key="item.url"
             v-for="(item, index) in companies"
-            class="w-full p-3 lg:p-6 bg-lightest-navy flex justify-center items-center">
+            class="w-full h-24 md:h-28 lg:h-28 bg-lightest-navy flex justify-center items-center">
           <img
-              class="w-full h-28 lg:h-32 "
+              :class="item.styles"
               :key="index"
-              :src="item" alt="">
-        </div>
+              :src="item.logo" alt="icon">
+        </a>
 
       </div>
     </div>
@@ -26,9 +29,27 @@
 </template>
 
 <script setup>
-const companies = ['/imgs/companies/medrite.svg', '/imgs/companies/welz.svg', '/imgs/companies/xeron.svg', '/imgs/companies/speeddates.svg']
+const companies = [
+  {
+    logo: "/imgs/companies/medrite.svg",
+    styles: "w-24 lg:w-32",
+    url: "https://medriteurgentcare.com/"
+  },
+  {
+    logo: "/imgs/companies/welz.svg",
+    styles: "w-24 lg:w-32",
+    url: "https://www.welz.com/"
+  },
+  {
+    logo: "/imgs/companies/xeron.svg",
+    styles: "w-20 lg:w-24",
+    url: "https://www.xeronlabs.com/"
+  },
+  {
+    logo: "/imgs/companies/speeddates.svg",
+    styles: "h-10 lg:h-14 lg:w-32",
+    url: "https://www.speeddateskenya.com/"
+  },
+]
 </script>
 
-<style scoped>
-
-</style>

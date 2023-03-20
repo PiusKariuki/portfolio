@@ -19,7 +19,8 @@ input[type="number"] {
 
 ::-webkit-scrollbar {
     /* display: none;  */
-    width: 15px;
+    width: 14px;
+    height: 12px;
 }
 
 ::-webkit-scrollbar-track {
