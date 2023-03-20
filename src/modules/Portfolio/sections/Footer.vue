@@ -29,11 +29,12 @@
     </div>
 
     <div class="flex flex-col gap-5 items-center justify-end relative">
-      <p
+      <a
+          href="mailto:piuskariuki19@gmail.com"
           class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
            duration-150 top-0 text-[15px] font-semibold tracking-widest cursor-pointer">
         piuskariuki19@gmail.com
-      </p>
+      </a>
       <div class="w-0 h-24 border-[1px] border-slate"/>
     </div>
   </div>
