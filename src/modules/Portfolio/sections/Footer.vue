@@ -1,21 +1,44 @@
 <template>
   <div class="flex flex-col content-container text-center justify-center gap-4 small-text font-bold mt-12">
-
-    <div class="flex w-full justify-center gap-20">
+    <div class="flex md:hidden w-full justify-center gap-20">
       <a
-          :href="item.link"
-          target="_blank"
           v-for="item in icons"
           :id="item.link"
-          v-html="item.icon"
-          class="flex flex-shrink-0 w-6 cursor-pointer" />
+          :href="item.link"
+          class="flex flex-shrink-0 w-6 cursor-pointer"
+          target="_blank"
+          v-html="item.icon"/>
     </div>
-    <p class=" hover:text-green">Designed & built  by Pius Kariuki</p>
+    <p class=" hover:text-green">Built by Pius Kariuki</p>
     <div class="flex items-center gap-2 small-text font-bold w-full text-center justify-center">
       <p class="">Vue JS</p>
       <p class="">Tailwind CSS</p>
     </div>
   </div>
+
+  <div class="hidden md:flex justify-between fixed inset-x-0 bottom-0 w-full px-8 lg:px-12">
+    <div class="flex flex-col gap-8 items-center justify-end">
+      <a
+          v-for="item in icons"
+          :id="item.link"
+          :href="item.link"
+          class="flex flex-shrink-0 w-5 cursor-pointer"
+          target="_blank"
+          v-html="item.icon"/>
+      <div class="w-0 h-24 border-[1px] border-slate"/>
+    </div>
+
+    <div class="flex flex-col gap-5 items-center justify-end relative">
+      <p
+          class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
+           duration-150 top-0 text-[15px] font-semibold tracking-widest cursor-pointer">
+        piuskariuki19@gmail.com
+      </p>
+      <div class="w-0 h-24 border-[1px] border-slate"/>
+    </div>
+  </div>
+
+
 </template>
 
 <script setup>
@@ -41,7 +64,7 @@ const icons = [
     </svg>
     `,
     link: "https://www.linkedin.com/in/pius-kariuki-1796041b4/"
-  },  {
+  }, {
     icon: `
     <svg
     class="hover:text-green transition-colors ease-in-out delay-75 duration-300"

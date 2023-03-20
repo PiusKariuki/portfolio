@@ -11,11 +11,15 @@
       </div>
 
       <div class="grid grid-cols-2 gap-1 w-full lg:w-[45.5%]">
-        <img
-            class="w-full object-contain h-28 lg:h-32 p-3 lg:p-6 bg-lightest-navy"
-            :key="index"
+        <div
             v-for="(item, index) in companies"
-            :src="item" alt="">
+            class="w-full p-3 lg:p-6 bg-lightest-navy flex justify-center items-center">
+          <img
+              class="w-full h-28 lg:h-32 "
+              :key="index"
+              :src="item" alt="">
+        </div>
+
       </div>
     </div>
   </div>

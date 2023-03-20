@@ -10,7 +10,7 @@
         <div
             :class="[index % 2 == 0 ? 'lg:left-1/3' : 'lg:left-0']"
             :style="{backgroundImage: 'url(' +item.image + ')' }"
-            class="absolute h-[180px] md:h-[380px] w-[87%] md:w-[92%] -top-[20px] md:-top-[30px] -translate-x-1/2 lg:-translate-x-0 lg:top-1/2 lg:-z-10 lg:w-8/12
+            class="absolute h-[180px] md:h-[300px] w-[87%] md:w-[92%] -top-[20px] md:-top-[30px] -translate-x-1/2 lg:-translate-x-0 lg:top-1/2 lg:-z-10 lg:w-8/12
             lg:h-[400px] lg:-translate-y-1/2 left-1/2
             bg-cover bg-center rounded-lg"
         />
