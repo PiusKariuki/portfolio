@@ -9,6 +9,7 @@
   <work-experience/>
   <projects-section/>
   <get-in-touch />
+  <Footer />
 </template>
 
 <script setup>
@@ -21,6 +22,7 @@ import Companies from "@/modules/Portfolio/sections/Companies.vue";
 import WorkExperience from "@/modules/Portfolio/sections/WorkExperience.vue";
 import ProjectsSection from "@/modules/Portfolio/sections/ProjectsSection.vue";
 import GetInTouch from "@/modules/Portfolio/sections/GetInTouch.vue";
+import Footer from "@/modules/Portfolio/sections/Footer.vue";
 
 const state = reactive({
   isSidebarOpen: false
