@@ -16,8 +16,8 @@
     </div>
   </div>
 
-  <div class="hidden md:flex justify-between fixed inset-x-0 bottom-0 w-full px-8 lg:px-12">
-    <div class="flex flex-col gap-8 items-center justify-end">
+
+    <div class="hidden md:flex flex-col gap-8 items-center justify-end fixed w-24 bottom-0 z-10">
       <a
           v-for="item in icons"
           :id="item.link"
@@ -28,16 +28,16 @@
       <div class="w-0 h-24 border-[1px] border-slate"/>
     </div>
 
-    <div class="flex flex-col gap-5 items-center justify-end relative">
+    <div class="hidden md:flex flex-col gap-5 items-center justify-end fixed z-10 bottom-0 right-0 w-24">
       <a
           href="mailto:piuskariuki19@gmail.com"
           class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
-           duration-150 top-0 text-[15px] font-semibold tracking-widest cursor-pointer">
+           duration-150 -top-[150%] text-[15px] font-semibold tracking-widest cursor-pointer">
         piuskariuki19@gmail.com
       </a>
       <div class="w-0 h-24 border-[1px] border-slate"/>
     </div>
-  </div>
+
 
 
 </template>
