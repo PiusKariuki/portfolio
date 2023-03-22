@@ -5,11 +5,11 @@
       <div
           v-for="(item, index) in highlights"
           :key="index"
-           class="flex flex-col w-full shadow-lg px-[20px] py-[15px] rounded-md justify-center
-           text-lightest-slate bg-light-navy gap-4 min-[200px]:h-80 min-[320px]:h-60 md:h-[300px] xl:h-[260px]">
+           class="flex flex-col w-full shadow-lg px-[20px] py-[15px] md:py-[24px] rounded-md justify-center
+           text-lightest-slate bg-light-navy gap-4 ">
         <img :src="item.image" alt="" class="w-6 h-6 lg:w-10 lg:h-10 text-green">
         <p class="h2 text-green">{{item.title}}</p>
-        <div v-html="item.description" class="paragraph tracking-wide" />
+        <div v-html="item.description" class="paragraph tracking-wide h-24 md:h-36" />
       </div>
     </div>
   </div>

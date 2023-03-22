@@ -65,7 +65,8 @@ const icons = [
     </svg>
     `,
     link: "https://www.linkedin.com/in/pius-kariuki-1796041b4/"
-  }, {
+  },
+  {
     icon: `
     <svg
     class="hover:text-green transition-colors ease-in-out delay-75 duration-300"
