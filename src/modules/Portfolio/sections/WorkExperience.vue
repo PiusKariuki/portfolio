@@ -153,12 +153,12 @@ onMounted(() => {
 })
 
 
-onUnmounted(() => {
-  state.tabs.forEach(tab => {
-    tab.removeEventListener("click")
-  })
-  window.removeEventListener('resize')
-})
+// onUnmounted(() => {
+//   state.tabs.forEach(tab => {
+//     tab.removeEventListener("click")
+//   })
+//   window.removeEventListener('resize')
+// })
 
 </script>
 
