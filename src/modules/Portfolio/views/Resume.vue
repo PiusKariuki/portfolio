@@ -2,11 +2,12 @@
     <iframe
         class="w-screen h-screen"
         id="resume"
-        src="docs/resume.pdf"
+        :src="resume"
         title="RESUME"
  >
     </iframe>
 </template>
 
 <script setup>
+import resume from "../../../../public/docs/resume.pdf"
 </script>
