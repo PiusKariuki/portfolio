@@ -1,6 +1,6 @@
 <template>
-  <div @click="emits('toggleSidebar')" class="fixed inset-0 w-screen h-screen bg-transparent">
-    <div @click.stop="" class="w-[80vw] h-screen fixed top-0 right-0 bg-light-navy z-50 lg:hidden shadow-lg shadow-navy-shadow">
+  <div @click="emits('toggleSidebar')" class="fixed inset-0 w-screen h-screen bg-transparent z-50">
+    <div @click.stop="" class="w-[80vw] h-screen fixed top-0 right-0 bg-light-navy  lg:hidden shadow-lg shadow-navy-shadow">
       <svg
           @click="emits('toggleSidebar')"
           class="w-8 absolute top-8 text-green right-4 z-50" fill="currentColor" viewBox="0 0 16 16"
