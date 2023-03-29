@@ -52,7 +52,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="cta flex items-center justify-center"
-          href="https://docs.google.com/document/d/1u6NIlzSZxDkjzgTHF4jQqBGJ28znPHNXXA1x_x09qWk/edit?usp=sharing">
+          href="/resume">
         Resume`
       </a>
 
