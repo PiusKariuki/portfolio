@@ -9,5 +9,5 @@
 </template>
 
 <script setup>
-import resume from "../../../../public/docs/resume.pdf"
+import resume from "@/shared/assets/docs/resume.pdf"
 </script>
