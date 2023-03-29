@@ -20,7 +20,9 @@
           <p class="text-green">0{{ index + 1 }}. </p>
           <p class="">{{ item.text }}</p>
         </a>
-        <button class="cta py-2 mt-4">Resume`</button>
+        <button
+                @click="router.push('/resume')"
+                class="cta py-2 mt-4">Resume`</button>
       </div>
 
     </div>
@@ -31,7 +33,9 @@
 
 <script setup>
 import {navItems} from "@/shared/data/navItems.js";
+import {useRouter} from "vue-router";
 
 const emits = defineEmits(['toggleSidebar'])
+const router = useRouter()
 
 </script>
