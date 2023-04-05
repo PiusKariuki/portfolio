@@ -1,0 +1,1 @@
+export const emailAddress = "mailto:vonnie@vonnie.io"

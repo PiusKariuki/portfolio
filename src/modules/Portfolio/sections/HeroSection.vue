@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-const emailAddress = import.meta.env.VITE_EMAIL
+import {emailAddress} from "@/shared/data/email.js";
 </script>
 
 <style>
