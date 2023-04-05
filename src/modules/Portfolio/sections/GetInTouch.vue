@@ -6,12 +6,13 @@
     </p>
 
     <a
-        href="mailto:piuskariuki19@gmail.com"
+        :href="emailAddress"
         class="cta mt-6  py-[0.75rem] w-44 flex items-center justify-center self-center">Say Hello</a>
   </div>
 </template>
 
 <script setup>
 
+const emailAddress = import.meta.env.VITE_EMAIL
 
 </script>

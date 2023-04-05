@@ -30,10 +30,10 @@
 
     <div class="hidden md:flex flex-col gap-5 items-center justify-end fixed z-10 bottom-0 right-0 w-24">
       <a
-          href="mailto:piuskariuki19@gmail.com"
+          :href="emailAddress"
           class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
            duration-150 -top-[150%] text-[15px] font-semibold tracking-widest cursor-pointer">
-        piuskariuki19@gmail.com
+        {{emailAddress.split(":")[1]}}
       </a>
       <div class="w-0 h-24 border-[1px] border-slate"/>
     </div>
@@ -43,6 +43,8 @@
 </template>
 
 <script setup>
+
+const emailAddress = import.meta.env.VITE_EMAIL
 
 const icons = [
   {

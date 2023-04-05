@@ -9,12 +9,14 @@
       <span class="text-green">Welz.</span>
     </p>
     <a
-        href="mailto:piuskariuki19@gmail.com"
+        :href="emailAddress"
         class="cta mt-12 lg:mt-auto justify-self-end py-[0.75rem] w-44 flex items-center justify-center">Reach out!</a>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const emailAddress = import.meta.env.VITE_EMAIL
+</script>
 
 <style>
 .name{
