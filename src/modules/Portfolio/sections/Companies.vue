@@ -50,7 +50,7 @@ const companies = [
     logo: "/imgs/companies/xeron.svg",
     styles: "w-20 lg:w-24",
     containerStyles: "rounded-bl-md",
-    // url: "https://www.xeronlabs.com/"
+    url: "https://www.xeronlabs.com/"
   },
   {
     logo: "/imgs/companies/speeddates.svg",
