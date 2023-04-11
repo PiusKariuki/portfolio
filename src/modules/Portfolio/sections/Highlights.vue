@@ -6,7 +6,7 @@
           v-for="(item, index) in highlights"
           :key="index"
            class="flex flex-col w-full shadow-lg px-[20px] py-[15px] md:py-[24px] rounded-md justify-center
-           text-lightest-slate bg-light-navy gap-4 ">
+           text-lightest-slate bg-light-navy gap-4 min-h-[300px]">
         <img :src="item.image" alt="" class="w-6 h-6 lg:w-10 lg:h-10 text-green">
         <p class="h2 text-green">{{item.title}}</p>
         <div v-html="item.description" class="paragraph tracking-wide h-24 md:h-36" />
@@ -29,7 +29,11 @@ const highlights = [
   {
     title: "Back End Developer",
     image: "/imgs/gear-solid.svg",
-    description: "I build APIs and organize models to persist data for applications."
+    description:`<p>
+                    I  APIs, organize backend logic, integrate services and organize models to persist
+                     data for applications.<br />
+                     Maintainability is very important to me, therefore I try to keep my logic simple and modular.
+                    </p>`
   },
 ]
 </script>
