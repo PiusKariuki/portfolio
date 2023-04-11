@@ -34,18 +34,19 @@ export const projects = [
         link: "https://medriteurgentcare.com/"
     },
     {
-        name: "Speed Dates Kenya",
-        image: "/imgs/screenshots/speeddates_2.png",
+        name: "Xeron Clinical Labs",
+        image: "/imgs/screenshots/xeron.png",
         desc: `<p>
-A Web application where single professionals can book events, socialize, network and meet potential partners.
+         Xeron is a local medical diagnostic laboratory providing testing services for physicians and patients in the
+          NYC metropolitan area, committed to the highest level of accuracy and compassion.
                  </p>
  <p
                  class="motto">
-                 "Socialize, network, date."
+                 "Access to comprehensive and reliable testing should be available to everyone."
                  </p>
 `,
-        technologies: ['React JS', 'Node JS', 'MongoDB', 'GraphQL', 'TailwindCSS', 'Daraja'],
-        link: "https://speeddateskenya.com/"
+        technologies: ['Vue JS', 'TailwindCSS'],
+        link: "https://www.xeronlabs.com/"
     },
 
 

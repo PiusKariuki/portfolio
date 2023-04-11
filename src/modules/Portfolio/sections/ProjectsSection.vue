@@ -60,4 +60,5 @@
 
 <script setup>
 import Heading from "@/shared/components/Heading.vue";
-import {projects} from "@/shared/data/projects.js";</script>
+import {projects} from "@/shared/data/projects.js";
+</script>
