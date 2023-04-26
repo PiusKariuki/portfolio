@@ -6,10 +6,9 @@ export const places = [
         duration: "November 2022 - Present",
         link: "https://www.welz.com/",
         roles: [
-            'Implement accessible and inclusive interfaces for healthcare customers.',
-            'Display patient information in an intuitive and elegant way for admins.',
-            'Communicate with different engineers and project managers on a regular basis.',
-            'Follow strict guidelines on version control and write clean code.'
+            'Reduced  user drop-off rate by 25% for the Welz platform by shortening the appointment booking journey.',
+            'Improved appointment scheduling for the organization by enforcing uniformity across time zones.',
+            'Increased the customer base for Welz by providing more payment options and more insurance companies.'
         ]
     },
     {
@@ -19,11 +18,9 @@ export const places = [
         duration: "July 2022 - November 2022",
         link: "https://hfk.vercel.app/",
         roles: [
-            'Come up with designs for their e-commerce platform.',
-            'Implement an elegant front end for their e-commerce platform.',
-            'Organize models for storing their product catalogue.',
-            'Build an API for their application.',
-            'Construct an admin panel for the shop owner.'
+            'Broadened the outreach of H.F.K. by providing an elegant design for their e-commerce platform.',
+            'Reduced the user journey by 25%  by providing more filter options for their product catalog instead of endless scrolling.',
+            'Reduced load times by almost 50% by implementing a graphql API reducing over-fetching and using caching.'
         ]
     },
     {
@@ -33,10 +30,8 @@ export const places = [
         duration: "November 2021 - June 2022",
         link: "https://reggycodas.com/",
         roles: [
-            'Write modern, performant, maintainable code for a diverse array of client and internal projects.',
-            'Work with a variety of different languages, platforms and frameworks such as' +
-            ' JavaScript, TypeScript, Next JS, React, Vue JS, Node JS, MongoDB, and Netlify.',
-            'Communicate with multi-disciplinary teams of engineers, designers, and clients on a daily basis'
+            'Improved the company’s versatility by learning more technologies and frameworks.',
+            'Reduced the server costs and load times by 50% on front end interfaces by optimizing build sizes.'
         ]
     },
 ]
