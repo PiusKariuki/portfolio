@@ -8,7 +8,7 @@
           Organizations I have worked with.
         </p>
         <p class="hidden md:flex paragraph md:mt-12">
-          I have worked and continue to work with these amazing brands and companies.
+          I have worked with these brands and companies to bring amazing software solutions to life.
         </p>
       </div>
 
