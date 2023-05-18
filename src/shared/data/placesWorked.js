@@ -8,7 +8,8 @@ export const places = [
         roles: [
             'Reduced  user drop-off rate by 25% for the Welz platform by shortening the appointment booking journey.',
             'Improved appointment scheduling for the organization by enforcing uniformity across time zones.',
-            'Increased the customer base for Welz by providing more payment options and more insurance companies.'
+            'Increased the customer base for Welz by providing more payment options',
+            'Increased the customer base by including more insurance company options'
         ]
     },
     {

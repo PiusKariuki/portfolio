@@ -2,17 +2,22 @@
   <div class="content-container text-lightest-slate ">
     <div
         class="flex flex-col md:flex-row shadow-lg w-full rounded-lg bg-light-navy  p-4 lg:px-12 md:py-16 gap-3
-        md:gap-12 md:justify-between">
+        md:gap-12 md:justify-between md:items-center">
       <div class="flex flex-col gap-6 max-w-sm">
-        <p class="text-green h2 mb-3">
+        <p class="text-green h2">
           Organizations I have worked with.
         </p>
-        <p class="hidden md:flex paragraph md:mt-12">
+        <p class="hidden md:flex paragraph md:my-4">
           I have worked with these brands and companies to bring amazing software solutions to life.
         </p>
+          <a
+                  :href="emailAddress"
+                  class="cta  py-[0.75rem] w-full md:w-44 flex items-center justify-center my-4 md:my-0">
+              Let's get in touch
+          </a>
       </div>
 
-      <div class="grid grid-cols-2 gap-x-1 gap-y-1 w-full lg:w-[45.5%]">
+      <div class="grid grid-cols-2 gap-x-1 gap-y-1 w-full lg:w-[45.5%] h-full">
         <a
             :href="item.url"
             target="_blank"
@@ -33,6 +38,8 @@
 </template>
 
 <script setup>
+import {emailAddress} from "@/shared/data/email.js";
+
 const companies = [
   {
     logo: "/imgs/companies/medrite.svg",
