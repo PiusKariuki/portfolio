@@ -51,8 +51,6 @@
             <a
                     class="cta flex items-center justify-center"
                     href="/resume"
-                    rel="noopener noreferrer"
-                    target="_blank"
             >
                 Resume`
             </a>
@@ -64,9 +62,8 @@
 <script setup>
 
 import {navItems} from "@/shared/data/navItems.js";
-import {useRouter} from "vue-router";
+
 
 const emits = defineEmits(['toggleSidebar'])
-const router = useRouter()
 
 </script>

@@ -23,9 +23,7 @@
                 </a>
                 <a
                         class="cta py-2 mt-4 flex justify-center"
-                        href="/resume"
-                        rel="noopener noreferrer"
-                        target="_blank">Resume`</a>
+                        href="/resume">Resume`</a>
             </div>
 
         </div>
