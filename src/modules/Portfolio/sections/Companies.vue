@@ -63,7 +63,7 @@ const companies = [
     logo: "/imgs/companies/speeddates.svg",
     styles: "h-10 lg:h-14 lg:w-32",
     containerStyles: "rounded-br-md",
-    url: "https://www.speeddateskenya.com/"
+    url: "https://www.a-list-events.com/"
   },
 ]
 </script>
