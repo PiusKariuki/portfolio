@@ -2,9 +2,9 @@
   <div id="experience" class="content-container flex flex-col gap-6 ">
     <heading number="01" text="Work Experience"/>
 
-    <div class="flex flex-col md:flex-row gap-2 w-full mt-7 max-w-5xl">
+    <div class="flex flex-col md:flex-row gap-2 w-full mt-7 maxxl">
       <div
-          class="flex md:flex-col items-center md:items-start h-20 md:h-full md:w-4/12 relative transition overflow-x-scroll
+          class="flex md:flex-col items-center md:items-start h-20 md:h-full md:w-full relative transition overflow-x-scroll
            md:overflow-x-clip md:gap-5 lg:border-l-[1px] border-lightest-navy tab-container"
           role="tablist"
       >
@@ -57,7 +57,7 @@
 
 <script setup>
 import Heading from "@/shared/components/Heading.vue";
-import {computed, onMounted, onUnmounted, reactive} from "vue";
+import {computed, onMounted, reactive} from "vue";
 import {places} from "@/shared/data/placesWorked.js";
 
 
