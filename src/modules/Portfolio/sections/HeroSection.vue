@@ -11,7 +11,7 @@
         <p class="text-lightest-slate paragraph  mt-3 lg:w-10/12">Striving to make the web a beautiful place one line of
             code at a time !</p>
         <a
-                :href="emailAddress"
+                :href="links.email"
                 class="cta mt-12 lg:mt-auto justify-self-end py-[0.75rem] w-44 flex items-center justify-center">
            Let's get in touch
         </a>
@@ -19,7 +19,11 @@
 </template>
 
 <script setup>
-import {emailAddress} from "@/shared/data/email.js";
+import {reactive} from "vue";
+
+const links = reactive({
+  email: import.meta.env.VITE_EMAIL
+})
 </script>
 
 <style>

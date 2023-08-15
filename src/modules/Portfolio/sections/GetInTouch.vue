@@ -6,7 +6,7 @@
     </p>
 
     <a
-        :href="emailAddress"
+        :href="links.email"
         class="cta mt-6  py-[0.75rem] w-44 flex items-center justify-center self-center">Say Hello</a>
   </div>
 </template>
@@ -14,5 +14,9 @@
 <script setup>
 
 
-import {emailAddress} from "@/shared/data/email.js";
+import {reactive} from "vue";
+
+const links = reactive({
+  email: import.meta.env.VITE_EMAIL
+})
 </script>
