@@ -11,7 +11,7 @@
           I have worked with these brands and companies to bring amazing software solutions to life.
         </p>
           <a
-                  :href="emailAddress"
+                  :href="links.email"
                   class="cta  py-[0.75rem] w-full md:w-44 flex items-center justify-center my-4 md:my-0">
               Let's get in touch
           </a>
@@ -38,7 +38,11 @@
 </template>
 
 <script setup>
-import {emailAddress} from "@/shared/data/email.js";
+import {reactive} from "vue";
+
+const links = reactive({
+  email: import.meta.env.VITE_EMAIL
+})
 
 const companies = [
   {
