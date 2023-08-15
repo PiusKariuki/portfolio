@@ -21,11 +21,11 @@
             duration-[400ms] md:lg "
             role="tab"
             @click="state.selectedWorkplaceID = place.id">
-          <span class="text-lightest-slate cursor-pointer subtitle">{{ place.name }}</span>
+          <span class="text-lightest-slate cursor-pointer text-sm font-semibold md:font-normal md:subtitle">{{ place.name }}</span>
         </button>
       </div>
       <div class="flex flex-col text-lightest-slate px-6 w-full overflow-x-scroll gap-2">
-        <p class="h3">
+        <p class="text-base md:h3">
           {{ selectedPlaceDetails.position }}
           <a :href="selectedPlaceDetails.link" class="text-green " target="_blank">@ {{
               selectedPlaceDetails.name

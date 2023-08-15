@@ -17,7 +17,7 @@ export const places = [
     },
     {
         id: 1,
-        name: "Xeron Clinical Laboratories · Contract",
+        name: "Xeron Clinical Labs · Contract",
         position: "Senior Frontend Developer",
         duration: "Mar 2023 - May 2023",
         location: "New York, United States · Remote",
