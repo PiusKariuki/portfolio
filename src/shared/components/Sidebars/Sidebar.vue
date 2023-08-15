@@ -23,7 +23,7 @@
                 </a>
                 <a
                         class="cta py-2 mt-4 flex justify-center"
-                        href="/resume">Resume`</a>
+                        href="https://piuskariuki.github.io/resume/resume.pdf">Resume`</a>
             </div>
 
         </div>
