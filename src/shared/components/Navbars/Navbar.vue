@@ -50,7 +50,7 @@
 
             <a
                     class="cta flex items-center justify-center"
-                    href="/resume"
+                    href="https://piuskariuki.github.io/resume/resume.pdf"
             >
                 Resume`
             </a>
