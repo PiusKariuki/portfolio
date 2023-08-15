@@ -48,12 +48,12 @@
             </a>
 
 
-<!--            <a-->
-<!--                    class="cta flex items-center justify-center"-->
-<!--                    href="/resume"-->
-<!--            >-->
-<!--                Resume`-->
-<!--            </a>-->
+            <a
+                    class="cta flex items-center justify-center"
+                    href="/resume"
+            >
+                Resume`
+            </a>
 
         </div>
     </div>

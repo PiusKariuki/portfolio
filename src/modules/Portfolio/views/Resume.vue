@@ -2,7 +2,7 @@
     <iframe
         class="w-screen h-screen"
         id="resume"
-        src="resume.pdf"
+        :src="resume"
         title="RESUME"
     >
     </iframe>
@@ -10,5 +10,7 @@
 
 <script setup>
 
+import {ref} from "vue";
 
+const resume = ref(import.meta.env.VITE_GITHUB_RESUME)
 </script>
