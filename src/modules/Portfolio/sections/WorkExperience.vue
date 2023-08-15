@@ -17,7 +17,7 @@
             :aria-controls="place.name"
             :class="[state.selectedWorkplaceID === place.id ? 'bg-light-navy border-0 md:border-green-tint':
              ' border-light-navy']"
-            class="relative block h-10 px-6 md:px-0 md:w-full md:ml-3 text-left tab  whitespace-nowrap transition
+            class="relative block h-10 px-4 md:px-0 md:w-full md:ml-3 text-left tab  whitespace-nowrap transition
             duration-[400ms] md:lg "
             role="tab"
             @click="state.selectedWorkplaceID = place.id">

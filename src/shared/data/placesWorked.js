@@ -17,7 +17,7 @@ export const places = [
     },
     {
         id: 1,
-        name: "Xeron Clinical Labs · Contract",
+        name: "Xeron Clinical Labs",
         position: "Senior Frontend Developer",
         duration: "Mar 2023 - May 2023",
         location: "New York, United States · Remote",
@@ -30,7 +30,7 @@ export const places = [
     },
     {
         id: 2,
-        name: "+MEDRITE Urgent Care · Contract",
+        name: "+MEDRITE",
         position: "Senior Frontend Developer",
         duration: "Jan 2023 - Mar 2023",
         location: "New York, United States · Remote",
@@ -44,7 +44,7 @@ export const places = [
     },
     {
         id: 3,
-        name: "Speed Dates Kenya · Contract",
+        name: "Speed Dates Kenya",
         position: "Full Stack Engineer",
         duration: "Jun 2022 - Jan 2023",
         location: "Nairobi Kenya · Remote",
@@ -59,7 +59,7 @@ export const places = [
     },
     {
         id: 4,
-        name: "Reggy Codas(Software Consultancy) · Full-time",
+        name: "Reggy Codas",
         position: "Full Stack Engineer",
         duration: "Oct 2021 - Jun 2022",
         location: "Nakuru Kenya · Remote",
