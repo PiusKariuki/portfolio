@@ -14,7 +14,7 @@
         :href="links.email"
         class="cta mt-12 lg:mt-auto justify-self-end py-[0.75rem] w-44 flex items-center justify-center"
         @click="getInTouch">
-      Let's get in touch
+      Hire Me
     </a>
   </div>
 </template>
