@@ -10,26 +10,26 @@
         <p class="hidden md:flex paragraph md:my-4">
           I have worked with these brands and companies to bring amazing software solutions to life.
         </p>
-          <a
-              @click="getInTouch"
-                  :href="links.email"
-                  class="cta  py-[0.75rem] w-full md:w-44 flex items-center justify-center my-4 md:my-0">
-              Hire Me
-          </a>
+        <a
+            :href="links.email"
+            class="cta  py-[0.75rem] w-full md:w-44 flex items-center justify-center my-4 md:my-0"
+            @click="hireMe">
+          Hire Me
+        </a>
       </div>
 
       <div class="grid grid-cols-2 gap-x-1 gap-y-1 w-full lg:w-[45.5%] h-full">
         <a
-            :href="item.url"
-            target="_blank"
-            :key="item.url"
             v-for="(item, index) in companies"
-            class="w-full h-24 md:h-28 lg:h-28 bg-lightest-navy flex justify-center items-center"
+            :key="item.url"
             :class="item.containerStyles"
+            :href="item.url"
+            class="w-full h-24 md:h-28 lg:h-28 bg-lightest-navy flex justify-center items-center"
+            target="_blank"
         >
           <img
-              :class="item.styles"
               :key="index"
+              :class="item.styles"
               :src="item.logo" alt="icon">
         </a>
 
@@ -45,8 +45,8 @@ const links = reactive({
   email: import.meta.env.VITE_EMAIL
 })
 
-const getInTouch = () => {
-  gtag("event", "get_in_touch", {
+const hireMe = () => {
+  gtag("event", "hire_me", {
     'section': 'companies',
   })
 }
