@@ -6,8 +6,9 @@
     </p>
 
     <a
+        @click="getInTouch"
         :href="links.email"
-        class="cta mt-6  py-[0.75rem] w-44 flex items-center justify-center self-center">Say Hello</a>
+        class="cta mt-6  py-[0.75rem] w-44 flex items-center justify-center self-center">Hire Me</a>
   </div>
 </template>
 
@@ -19,4 +20,10 @@ import {reactive} from "vue";
 const links = reactive({
   email: import.meta.env.VITE_EMAIL
 })
+
+const getInTouch = () => {
+  gtag("event", "get_in_touch", {
+    'section': 'footer',
+  })
+}
 </script>

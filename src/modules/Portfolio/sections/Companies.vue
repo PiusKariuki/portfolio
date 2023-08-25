@@ -11,9 +11,10 @@
           I have worked with these brands and companies to bring amazing software solutions to life.
         </p>
           <a
+              @click="getInTouch"
                   :href="links.email"
                   class="cta  py-[0.75rem] w-full md:w-44 flex items-center justify-center my-4 md:my-0">
-              Let's get in touch
+              Hire Me
           </a>
       </div>
 
@@ -43,6 +44,12 @@ import {reactive} from "vue";
 const links = reactive({
   email: import.meta.env.VITE_EMAIL
 })
+
+const getInTouch = () => {
+  gtag("event", "get_in_touch", {
+    'section': 'companies',
+  })
+}
 
 const companies = [
   {
