@@ -13,7 +13,7 @@
     <a
         :href="links.email"
         class="cta mt-12 lg:mt-auto justify-self-end py-[0.75rem] w-44 flex items-center justify-center"
-        @click="getInTouch">
+        @click="hireMe">
       Hire Me
     </a>
   </div>
@@ -26,8 +26,8 @@ const links = reactive({
   email: import.meta.env.VITE_EMAIL
 })
 
-const getInTouch = () => {
-  gtag("event", "get_in_touch", {
+const hireMe = () => {
+  gtag("event", "hire_me", {
     'section': 'hero',
   })
 }
