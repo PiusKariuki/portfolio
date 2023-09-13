@@ -44,7 +44,7 @@ export const places = [
     },
     {
         id: 3,
-        name: "Speed Dates Kenya",
+        name: "A-List Events",
         position: "Full Stack Engineer",
         duration: "Jun 2022 - Jan 2023",
         location: "Nairobi Kenya · Remote",
