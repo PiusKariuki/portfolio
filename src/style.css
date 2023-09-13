@@ -83,4 +83,19 @@ input[type="number"] {
     .motto {
         @apply text-green small-text font-thin tracking-wide mt-3 italic;
     }
+
+    .link{
+        text-decoration: none;
+        background-image: linear-gradient(#64ffda, #64ffda);
+        background-size: 0% 0.1em;
+        background-position-y: 100%;
+        background-position-x: 0%;
+        background-repeat: no-repeat;
+        transition: background-size 0.2s ease-in-out;
+    }
+    .link:hover,
+    .link:focus,
+    .link:active {
+        background-size: 100% 0.1em;
+    }
 }

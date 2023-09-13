@@ -5,6 +5,7 @@
     <hero-section/>
     <highlights/>
   </div>
+  <Me />
   <companies/>
   <work-experience/>
   <projects-section/>
@@ -23,6 +24,7 @@ import WorkExperience from "@/modules/Portfolio/sections/WorkExperience.vue";
 import ProjectsSection from "@/modules/Portfolio/sections/ProjectsSection.vue";
 import GetInTouch from "@/modules/Portfolio/sections/GetInTouch.vue";
 import Footer from "@/modules/Portfolio/sections/Footer.vue";
+import Me from "@/modules/Portfolio/sections/Me.vue";
 
 const state = reactive({
   isSidebarOpen: false

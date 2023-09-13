@@ -1,5 +1,5 @@
 <template>
-    <div class="flex content-container py-[25px] lg:py-[40px] justify-between items-center z-50 ah">
+    <div class="flex content-container py-[25px] lg:py-[40px] justify-between items-center z-50 ">
         <svg class="w-[42px] h-[42px] text-green" fill="none" viewBox="0 0 84 96" xmlns="http://www.w3.org/2000/svg">
             <g transform="translate(3.000000, 2.000000)">
                 <g transform="translate(15.000000, 18.000000)">
@@ -22,7 +22,7 @@
             </g>
         </svg>
         <svg
-                class="w-[42px] h-[42px] text-green md:hidden"
+                class="w-[42px] h-[42px] text-green lg:hidden"
                 fill="none"
                 stroke="currentColor"
                 transform="matrix(-1, 0, 0, 1, 0, 0)"
@@ -38,7 +38,7 @@
             </path>
         </svg>
 
-        <div class="hidden md:flex items-center gap-6 text-lightest-slate">
+        <div class="hidden lg:flex items-center gap-6 text-lightest-slate">
             <a
                     v-for="(item, index) in navItems"
                     :href="item.link"

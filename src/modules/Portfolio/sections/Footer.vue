@@ -9,10 +9,10 @@
           target="_blank"
           v-html="item.icon"/>
     </div>
-    <p class=" hover:text-green">Built by Pius Kariuki</p>
+    <p class=" hover:text-green">Built by yours truly. ❤✌️</p>
     <div class="flex items-center gap-2 small-text font-bold w-full text-center justify-center">
-      <p class="">Vue JS</p>
-      <p class="">Tailwind CSS</p>
+      <p class="">Vue JS 👑👑👑</p>
+      <p class="">Tailwind CSS 🦋🦋🦋</p>
     </div>
   </div>
 

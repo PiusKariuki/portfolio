@@ -1,6 +1,6 @@
 <template>
   <div id="projects" class="content-container flex flex-col gap-6  w-full ">
-    <heading number="02" text="Featured Projects"/>
+    <heading number="04" text="Featured Projects"/>
     <div class="flex flex-col w-full gap-24 lg:gap-44  py-12 lg:py-20 relative">
 
       <div

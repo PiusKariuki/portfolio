@@ -1,6 +1,6 @@
 <template>
   <div id="experience" class="content-container flex flex-col gap-6 ">
-    <heading number="01" text="Work Experience"/>
+    <heading number="03" text="Work Experience"/>
 
     <div class="flex flex-col md:flex-row gap-2 w-full mt-7 maxxl">
       <div

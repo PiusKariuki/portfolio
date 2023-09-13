@@ -1,5 +1,6 @@
 <template>
-  <div class="content-container text-lightest-slate ">
+  <div class="content-container text-lightest-slate gap-6 flex flex-col" id="companies">
+    <heading number="02" text="Organizations"/>
     <div
         class="flex flex-col md:flex-row shadow-lg w-full rounded-lg bg-light-navy  p-4 lg:px-12 md:py-16 gap-3
         md:gap-12 md:justify-between md:items-center">
@@ -40,6 +41,7 @@
 
 <script setup>
 import {reactive} from "vue";
+import Heading from "@/shared/components/Heading.vue";
 
 const links = reactive({
   email: import.meta.env.VITE_EMAIL
