@@ -1,8 +1,8 @@
 export const intro = `<div class="flex flex-col gap-4 paragraph tracking-wide">
 <p class=" ">
-Hello! My name is Pius,a dedicated and creative web developer with a passion for great user experiences ️.
+Hello! I am Pius, a software engineer de️dicated to creating elegant tailor-made solutions.
 <br />
-I got interested in software engineering in 2018 and I started playing around with Javascript.
+I got interested in software engineering in 2018, when I started playing around with Javascript.
 </p>
 
 <p class="">Fast-forward to today, and I've had the privilege of working at 
