@@ -9,7 +9,9 @@
           target="_blank"
           v-html="item.icon"/>
     </div>
-    <p class=" hover:text-green">Built by yours truly. ❤✌️</p>
+    <a class="hover:text-green" href="https://www.instagram.com/bchiang7" target="_blank">Inspired by <span
+        class="underline font-bold">Brittany Chiang</span> </a>
+    <p class="hover:text-green">Built by yours truly. ❤✌️</p>
     <div class="flex items-center gap-2 small-text font-bold w-full text-center justify-center">
       <p class="">Vue JS 👑👑👑</p>
       <p class="">Tailwind CSS 🦋🦋🦋</p>
@@ -17,27 +19,26 @@
   </div>
 
 
-    <div class="hidden md:flex flex-col gap-8 items-center justify-end fixed w-24 bottom-0 z-10">
-      <a
-          v-for="item in icons"
-          :id="item.link"
-          :href="item.link"
-          class="flex flex-shrink-0 w-5 cursor-pointer"
-          target="_blank"
-          v-html="item.icon"/>
-      <div class="w-0 h-24 border-[1px] border-slate"/>
-    </div>
+  <div class="hidden md:flex flex-col gap-8 items-center justify-end fixed w-24 bottom-0 z-10">
+    <a
+        v-for="item in icons"
+        :id="item.link"
+        :href="item.link"
+        class="flex flex-shrink-0 w-5 cursor-pointer"
+        target="_blank"
+        v-html="item.icon"/>
+    <div class="w-0 h-24 border-[1px] border-slate"/>
+  </div>
 
-    <div class="hidden md:flex flex-col gap-5 items-center justify-end fixed z-10 bottom-0 right-0 w-24">
-      <a
-          :href="links.email"
-          class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
+  <div class="hidden md:flex flex-col gap-5 items-center justify-end fixed z-10 bottom-0 right-0 w-24">
+    <a
+        :href="links.email"
+        class="rotate-90 absolute left-1/2 -translate-x-1/2 hover:text-green transition-colors delay-75 ease-in-out
            duration-150 -top-[150%] text-[15px] font-semibold tracking-widest cursor-pointer">
-        {{links.email.split(":")[1]}}
-      </a>
-      <div class="w-0 h-24 border-[1px] border-slate"/>
-    </div>
-
+      {{ links.email.split(":")[1] }}
+    </a>
+    <div class="w-0 h-24 border-[1px] border-slate"/>
+  </div>
 
 
 </template>

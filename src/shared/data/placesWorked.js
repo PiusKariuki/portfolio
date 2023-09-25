@@ -1,73 +1,95 @@
 export const places = [
+
     {
         id: 0,
+        name: "Freelance",
+        position: "Software Engineer",
+        duration: "September 2023- Present",
+        location: "",
+        roles: [
+            'Client collaboration. Collaborate with clients to understand their requirements.',
+            'Documentation. Document requirements to define project scope.',
+            'Custom software solutions. Designed and developed tailor-made software solutions\n',
+            'Continuous learning. Stayed current with emerging technologies and trends in the\n' +
+            'software world',
+            'Portfolio growth. Expanded my portfolio by taking on a variety of projects and getting\n' +
+            'certifications.\n'
+        ],
+        skills: ['FastAPI','TailwindCSS', 'Vue JS', 'React', 'Google Analytics', 'AWS', 'PostgreSQL']
+    },
+    {
+        id: 1,
         name: "Welz",
-        position: "Senior Front End Developer - Full-time",
-        duration: "November 2022 - Present",
+        position: "Front End Developer - Full-time",
+        duration: "November 2022 - September 2023",
         location: "Manhattan, New York, United States · Remote",
         link: "https://www.welz.com/",
         roles: [
-            'Scaling the platform to accommodate more insurance company options.',
-            'Coordinated with all software engineers and designers.',
-            'Improved appointment scheduling by enforcing uniformity across time zones.',
-            'Increased the customers base by providing more payment options.',
-            'Maintained the platform dashboard.'
+            'Scaled the company platform to accommodate more insurance company options.\n',
+            'Coordinated with a team of software engineers and designers.\n',
+            'Improve doctor appointment scheduling by enforcing uniformity across different time\n' +
+            'zones',
+            'Maintained the platform admin dashboard that manages clinic and patient records'
         ],
         skills: ['MVC', 'TailwindCSS', 'Pinia', 'Vue JS']
     },
     {
-        id: 1,
+        id: 2,
         name: "Xeron Clinical Labs",
-        position: "Senior Frontend Developer",
+        position: "Frontend Developer",
         duration: "Mar 2023 - May 2023",
         location: "New York, United States · Remote",
         link: "https://www.xeronlabs.com/",
         roles: [
-            'Brought the set designed specs to life by implementing elegant interactive interfaces.',
-            'Improved the internet presence of the organization by including more information like google maps directions to their clinics and a service catalog for each of them'
+            'Converted design specs to elegant interactive interfaces.',
+            'Improved the internet presence of the organization by including more information like\n' +
+            'google maps directions to the clinic and a service catalog for each of them.\n'
         ],
         skills: ['Adobe Illustrator', 'Adobe', 'Pinia', 'Vue JS', 'TailwindCSS']
     },
     {
-        id: 2,
+        id: 3,
         name: "+MEDRITE",
-        position: "Senior Frontend Developer",
+        position: "Frontend Developer",
         duration: "Jan 2023 - Mar 2023",
         location: "New York, United States · Remote",
         link: "https://medriteurgentcare.com/",
         roles: [
-            'Added a preregistration module to the current medrite platform',
-            'Implemented design specs. into interactive interfaces.',
-            'Handled API integrations and web testing'
+            'Built a pre-registration module to enforce medrite’s no-appointment policy.\n',
+            'Converted design specs into interactive interfaces.\n',
+            'Consumed Medrite’s prebuilt API’s on the interfaces and tested them.\n',
+            'Coordinated with other software engineers and designers.\n'
         ],
         skills: ['TailwindCSS', 'Pinia', 'Vue JS']
     },
     {
-        id: 3,
+        id: 4,
         name: "A-List Events",
         position: "Full Stack Engineer",
         duration: "Jun 2022 - Jan 2023",
         location: "Nairobi Kenya · Remote",
         link: "https://www.a-list-events.com/",
         roles: [
-            'Coming up with a design for their platform.',
-            'Implementing the design into interactive interfaces.',
-            'Persisting data in a MongoDB and implementing business logic in an Express JS and GraphQL environment.',
-            'Building an admin panel for the client.'
+            'Came up with a design and theme for the platform',
+            'Implemented the design into elegant interfaces.',
+            'Persisted data in a MongoDB and implemented business logic in an Express JS and\n' +
+            'GraphQL environment.',
+            'Built an admin panel for the client to manage events, users, transactions and view reports.'
         ],
         skills: ['Recoil', 'Node JS', 'React JS', 'Express JS', 'MongoDB', 'TailwindCSS', 'GraphQL']
     },
     {
-        id: 4,
+        id: 5,
         name: "Reggy Codas",
         position: "Full Stack Engineer",
         duration: "Oct 2021 - Jun 2022",
         location: "Nakuru Kenya · Remote",
         link: "https://reggycodas.com/",
         roles: [
-            'Built an e-commerce platform with real-time chat, video and interaction capabilities.',
-            'Designed and implemented interactive interfaces for various client projects.',
-            'Built APIs to enforce business logic and persist data mostly on MongoDB databases.'
+            'Developed, maintained and shipped production code for client websites primarily using\n' +
+            'React, Typescript, Next JS, TailwindCSS, MongoDB.',
+            'Came up with design for client projects.\n',
+            'Built APIs to enforce business logic and persist data mostly on MongoDB databases.\n'
         ],
         skills: ['Next JS', 'Node JS', 'React JS', 'Express JS', 'MongoDB', 'TailwindCSS', 'GraphQL', 'Vue JS']
     },

@@ -21,9 +21,6 @@
                     <p class="text-green">0{{ index + 1 }}. </p>
                     <p class="">{{ item.text }}</p>
                 </a>
-<!--                <a-->
-<!--                        class="cta py-2 mt-4 flex justify-center"-->
-<!--                        href="https://piuskariuki.github.io/resume/resume.pdf">Resume`</a>-->
             </div>
 
         </div>
