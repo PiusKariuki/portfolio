@@ -48,12 +48,12 @@
             </a>
 
 
-            <a
-                    class="cta flex items-center justify-center"
-                    href="https://piuskariuki.github.io/resume/resume.pdf"
-            >
-                Resume`
-            </a>
+<!--            <a-->
+<!--                    class="cta flex items-center justify-center"-->
+<!--                    href="https://piuskariuki.github.io/resume/resume.pdf"-->
+<!--            >-->
+<!--                Resume`-->
+<!--            </a>-->
 
         </div>
     </div>
