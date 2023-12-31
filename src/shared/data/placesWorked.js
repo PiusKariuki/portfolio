@@ -1,10 +1,25 @@
 export const places = [
-
     {
         id: 0,
+        name: "IntelliSOFT Consulting Ltd",
+        position: "Digital Health Software Engineer",
+        duration: "November 2023- Present",
+        location: "Nairobi, Kenya",
+        link: "https://www.intellisoftkenya.com/",
+        roles: [
+            'Working in a team to build and maintain digital heath products',
+            'Improving my knowledge on digital health by doing courses and getting certifications',
+            'Collaborating with clients to understand their requirements and action any feedback that they have along the way',
+            'Extending the capabilities of hospital information systems by building custom applications for DHIS2',
+            'Working on OpenMRS products'
+        ],
+        skills: ['React', 'DHIS2', 'Open MRS']
+    },
+    {
+        id: 1,
         name: "Freelance",
         position: "Software Engineer",
-        duration: "September 2023- Present",
+        duration: "September 2023- November 2023",
         location: "",
         roles: [
             'Client collaboration. Collaborate with clients to understand their requirements.',
@@ -15,12 +30,12 @@ export const places = [
             'Portfolio growth. Expanded my portfolio by taking on a variety of projects and getting\n' +
             'certifications.\n'
         ],
-        skills: ['FastAPI','TailwindCSS', 'Vue JS', 'React', 'Google Analytics', 'AWS', 'PostgreSQL']
+        skills: ['FastAPI', 'TailwindCSS', 'Vue JS', 'React', 'Google Analytics', 'AWS', 'PostgreSQL']
     },
     {
-        id: 1,
-        name: "Welz",
-        position: "Front End Developer - Full-time",
+        id: 2,
+        name: "Welz Urgent Care",
+        position: "Front End Developer",
         duration: "November 2022 - September 2023",
         location: "Manhattan, New York, United States · Remote",
         link: "https://www.welz.com/",
@@ -29,41 +44,14 @@ export const places = [
             'Coordinated with a team of software engineers and designers.\n',
             'Improve doctor appointment scheduling by enforcing uniformity across different time\n' +
             'zones',
-            'Maintained the platform admin dashboard that manages clinic and patient records'
+            'Maintained the platform admin dashboard that manages clinic and patient records',
+            'Built a lab testing platform for Xeron Clinical Labs.',
+            'Extended the Medrite Urgent Care platform by creating a pre-registration module.'
         ],
         skills: ['MVC', 'TailwindCSS', 'Pinia', 'Vue JS']
     },
     {
-        id: 2,
-        name: "Xeron Clinical Labs",
-        position: "Frontend Developer",
-        duration: "Mar 2023 - May 2023",
-        location: "New York, United States · Remote",
-        link: "https://www.xeronlabs.com/",
-        roles: [
-            'Converted design specs to elegant interactive interfaces.',
-            'Improved the internet presence of the organization by including more information like\n' +
-            'google maps directions to the clinic and a service catalog for each of them.\n'
-        ],
-        skills: ['Adobe Illustrator', 'Adobe', 'Pinia', 'Vue JS', 'TailwindCSS']
-    },
-    {
         id: 3,
-        name: "+MEDRITE",
-        position: "Frontend Developer",
-        duration: "Jan 2023 - Mar 2023",
-        location: "New York, United States · Remote",
-        link: "https://medriteurgentcare.com/",
-        roles: [
-            'Built a pre-registration module to enforce medrite’s no-appointment policy.\n',
-            'Converted design specs into interactive interfaces.\n',
-            'Consumed Medrite’s prebuilt API’s on the interfaces and tested them.\n',
-            'Coordinated with other software engineers and designers.\n'
-        ],
-        skills: ['TailwindCSS', 'Pinia', 'Vue JS']
-    },
-    {
-        id: 4,
         name: "A-List Events",
         position: "Full Stack Engineer",
         duration: "Jun 2022 - Jan 2023",
@@ -79,7 +67,7 @@ export const places = [
         skills: ['Recoil', 'Node JS', 'React JS', 'Express JS', 'MongoDB', 'TailwindCSS', 'GraphQL']
     },
     {
-        id: 5,
+        id: 4,
         name: "Reggy Codas",
         position: "Full Stack Engineer",
         duration: "Oct 2021 - Jun 2022",
